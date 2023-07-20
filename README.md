@@ -1,7 +1,7 @@
 # Car Hunting
 
 ## A online application for know details about car's brand
-### It's Server side part
+### It's Client side part
 #### Features:
 - Every person have to registered by google authentication.
 - Admin can insert any car brand’s logo and information in this web application.
@@ -29,12 +29,11 @@
 - NodeJS (express)
 - MongoDB
 - Firebase
-- Heroku
+- Netlify
 - Github
 
-#### Live site: https://car-hunter-96879.firebaseapp.com/  
-##### Or,
-#### Live site: https://car-hunter-96879.web.app/
+#### Live site: https://elegant-choux-5c1390.netlify.app/
 
-#### Client site repository: https://github.com/Shoyas/car-details-redux-client
-#### Server site repository: https://github.com/Shoyas/car-details-redux-server
+
+#### Client site repository: https://github.com/Shoyas/car-info-redux-client
+#### Server site repository: https://github.com/Shoyas/car-info-redux-server
