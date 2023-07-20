@@ -1,0 +1,6 @@
+# render.yaml
+
+services:
+  - name: my-app
+    env: node
+    startCommand: node index.js
