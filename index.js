@@ -120,10 +120,12 @@ client.connect((err) => {
 
   // filter admin for access sensitive area
   app.get("/getAdmin", (req, res) => {
-    const email = req.body.email;
-    makeAdminCollection.find({ email: email }).toArray((error, documents) => {
-      res.send(documents.length > 0);
-    });
+    makeAdminCollection
+      .find({})
+      .limit(20)
+      .toArray((err, documents) => {
+        res.send(documents);
+      });
   });
 });
 
